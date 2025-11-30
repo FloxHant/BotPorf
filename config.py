@@ -1,2 +1,2 @@
 TOKEN = ''
-DATABASE = 'mydatabase.db'
+DATABASE = 'bot.db'
