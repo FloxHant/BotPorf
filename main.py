@@ -1,4 +1,4 @@
-from logic import DB_Manager
+rom logic import DB_Manager
 from config import *
 from telebot import TeleBot
 from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup, KeyboardButton
@@ -60,8 +60,11 @@ def info(message):
 Вот команды которые могут тебе помочь:
 
 /new_project - используй для добавления нового проекта
-....
-
+/skills - выбери проект для которого нужно выбрать навык
+/delete - удаление проекта
+/projects - показывает все проекты
+/update_projects - обновление проекта
+/info -  информация
 Также ты можешь ввести имя проекта и узнать информацию о нем!""")
     
 
